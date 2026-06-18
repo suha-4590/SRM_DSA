@@ -1,0 +1,17 @@
+//Q1 : Print Largest element in an array
+public class Main {
+    public static void main(String[] args) {
+            int[] arr = {1,8,10,12,14};
+            int max = 0;
+            for(int i = 0; i < arr.length; i++ ){
+                if(arr [i] > max){
+                    max = arr[i];
+
+                }
+
+            }
+        System.out.println(max);
+    }
+}
+
+//Q2: Print SecondLargest Element in an Array
